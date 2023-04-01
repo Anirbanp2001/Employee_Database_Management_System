@@ -1,0 +1,42 @@
+.login {
+    height: calc(100vh - 60px);
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        background-color: transparent;
+        height: 40%;
+        width: 20%;
+        padding: 10px;
+        border: 1px solid rgb(96, 96, 221);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .title {
+            border-bottom: 30px;
+            color: rgb(115, 139, 219);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+
+            input {
+                background-color: transparent;
+                padding: 5px;
+                border: none;
+                width: 200px;
+                border-bottom: 1px solid gray;
+            }
+        }
+    }
+}

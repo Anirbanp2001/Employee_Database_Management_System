@@ -1,0 +1,44 @@
+.navbar{
+    height: 60px;
+    background-color: rgb(85, 85, 202);
+    display: flex;
+    flex-wrap: wrap;
+    position:sticky;
+    .left{
+        flex: 1;
+        img{
+            height: 50px;
+            width: 300px;
+            object-fit: cover;
+        }
+    }
+    .center{
+        flex: 6;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            li{
+                padding: 10px;
+                color: white;
+                border: none;
+                font-size: 20px;
+                cursor: pointer;
+                
+            }
+            
+        }
+    }
+
+    .right{
+        flex:2 ;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        span{
+            padding: 10px;
+        }
+
+    }
+}
